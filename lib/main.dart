@@ -28,7 +28,7 @@ class HomeScren extends StatelessWidget{
       appBar: AppBar(
         foregroundColor: Colors.black,
         backgroundColor: Colors.amber,
-        title: Text("Normal Design"),
+        title: Text("Home Design"),
       ),
       drawer: Drawer(),
     );
