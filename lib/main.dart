@@ -31,29 +31,15 @@ class HomeScren extends StatelessWidget{
         title: Text("Home Design"),
       ),
       drawer: Drawer(),
-     body: ListView(
-    children: [
-      Card(
-    color: Colors.amber,
-    child: SizedBox(
-    height: 100,
-    width: 100,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQcRtWVDjSpn8k9DDCETUsh-LL3HVJGDMaQ&s",height: 100,width: 100,),
-          Column(
-            children: [
-              Text("RaFiuL RaZu"),
-              Text("0182685124"),
-            ],
-          )
-        ],
-      ),
-    ),
-    ),
-    ],
-    ),
+     body:Column(
+       children: [
+         Container(
+           height: 100,
+           width: double.infinity,
+           color: Colors.amber,
+         )
+       ],
+     ),
     );
   }
 
