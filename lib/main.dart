@@ -28,6 +28,7 @@ class HomeScren extends StatelessWidget{
       appBar: AppBar(
         title: Text("Normal Design"),
       ),
+      drawer: Drawer(),
     );
   }
 
