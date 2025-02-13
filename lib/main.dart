@@ -31,12 +31,13 @@ class HomeScren extends StatelessWidget{
         title: Text("Home Design"),
       ),
       drawer: Drawer(),
-     body:Column(
+     body:ListView(
        children: [
-         Container(
-           height: 100,
-           width: double.infinity,
+         Card(
            color: Colors.amber,
+           child: CircleAvatar(
+             child: Icon(Icons.person,color: Colors.white,),
+           ),
          )
        ],
      ),
