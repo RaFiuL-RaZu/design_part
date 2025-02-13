@@ -38,6 +38,18 @@ class HomeScren extends StatelessWidget{
     child: SizedBox(
     height: 100,
     width: 100,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQcRtWVDjSpn8k9DDCETUsh-LL3HVJGDMaQ&s",height: 100,width: 100,),
+          Column(
+            children: [
+              Text("RaFiuL RaZu"),
+              Text("0182685124"),
+            ],
+          )
+        ],
+      ),
     ),
     ),
     ],
