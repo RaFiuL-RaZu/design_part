@@ -33,11 +33,16 @@ class HomeScren extends StatelessWidget{
       drawer: Drawer(),
      body:ListView(
        children: [
-         Card(
-           color: Colors.amber,
-           child: CircleAvatar(
-             child: Icon(Icons.person,color: Colors.white,),
-           ),
+         Row(
+           children: [
+             Card(
+               color: Colors.grey,
+               child: CircleAvatar(
+                 backgroundColor: Colors.white,
+                 child: Icon(Icons.person),
+               ),
+             )
+           ],
          )
        ],
      ),
