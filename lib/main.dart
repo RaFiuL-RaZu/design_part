@@ -31,14 +31,17 @@ class HomeScren extends StatelessWidget{
         title: Text("Home Design"),
       ),
       drawer: Drawer(),
-      body: Column(
-        children: [
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.blue,
-          )
-        ],
+      body: Center(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.blue,
+            )
+          ],
+        ),
       ),
     );
   }
