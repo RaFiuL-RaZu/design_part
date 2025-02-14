@@ -40,14 +40,14 @@ class HomeScren extends StatelessWidget {
         title: Text("Home Design"),
       ),
       drawer: Drawer(),
-      body:SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: [
             Container(
-              child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIft9QHkBup71HTVbX0xEakQ1cAOn-PwpyMJ0cS_VgYq0y8JtdPnQrEhxgCHFj7ZZgV4&usqp=CAU",width:double.infinity,),
-              height: 150,
-              width: double.infinity,
-              color: Colors.grey,
+              child: Image.network(
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIft9QHkBup71HTVbX0xEakQ1cAOn-PwpyMJ0cS_VgYq0y8JtdPnQrEhxgCHFj7ZZgV4&usqp=CAU",
+                width: double.infinity,height: 200,
+              ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -55,12 +55,12 @@ class HomeScren extends StatelessWidget {
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
                   itemCount: personInfo.length,
-                  gridDelegate:
-                  SliverGridDelegateWithFixedCrossAxisCount(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
                     childAspectRatio: 0.65,
                     crossAxisSpacing: 15,
-                    mainAxisSpacing: 15,),
+                    mainAxisSpacing: 15,
+                  ),
                   itemBuilder: (context, index) {
                     return Card(
                       color: Colors.grey,
@@ -76,8 +76,16 @@ class HomeScren extends StatelessWidget {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("Name :${personInfo[index]["name"]}",maxLines: 1,overflow: TextOverflow.ellipsis,),
-                                Text("Dep :${personInfo[index]["dept"]}",maxLines: 1,overflow: TextOverflow.ellipsis,),
+                                Text(
+                                  "Name :${personInfo[index]["name"]}",
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                Text(
+                                  "Dep :${personInfo[index]["dept"]}",
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                                 Text("Roll:${personInfo[index]["Roll"]}"),
                               ],
                             ),
