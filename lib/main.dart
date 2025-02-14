@@ -36,8 +36,8 @@ class HomeScren extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         foregroundColor: Colors.black,
-        backgroundColor: Colors.amber,
-        title: Text("Home Design"),
+        backgroundColor: Colors.deepOrangeAccent,
+        title: Text("Daraz Online Shop"),
       ),
       drawer: Drawer(),
       body: SingleChildScrollView(
