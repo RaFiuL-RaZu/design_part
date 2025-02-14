@@ -32,7 +32,10 @@ class HomeScren extends StatelessWidget{
       ),
       drawer: Drawer(),
      body: GridView(
-         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+             crossAxisCount: 3,
+           childAspectRatio: 0.75
+         ),
        children: [
          Padding(
            padding: const EdgeInsets.all(8.0),
@@ -42,7 +45,7 @@ class HomeScren extends StatelessWidget{
              color: Colors.amber,
              child: Column(
                children: [
-                 Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp57OH7-b1dARGc3vujs7992FaDDvo-2w9Rw&s",height: 100,),
+                 Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp57OH7-b1dARGc3vujs7992FaDDvo-2w9Rw&s"),
                  Text("RaFiuL RaZu"),
                  Text("Computer Enginner"),
                ],
