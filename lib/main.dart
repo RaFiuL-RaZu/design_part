@@ -35,7 +35,10 @@ class HomeScren extends StatelessWidget{
        itemCount: 10,
          gridDelegate:SliverGridDelegateWithFixedCrossAxisCount(
              crossAxisCount: 3,
-         childAspectRatio: 0.75),
+         childAspectRatio: 0.75,
+           crossAxisSpacing: 15,
+           mainAxisSpacing: 15,
+         ),
          itemBuilder:(context,index){
            return  ContactCard();
          }),
