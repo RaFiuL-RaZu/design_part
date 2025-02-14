@@ -31,14 +31,16 @@ class HomeScren extends StatelessWidget{
         title: Text("Home Design"),
       ),
       drawer: Drawer(),
-     body:ListView(
+     body: GridView(
+         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
        children: [
-         Card(
-       color: Colors.grey,
-       child: CircleAvatar(
-         backgroundColor: Colors.white,
-         child: Icon(Icons.person),
-       ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(
+             height: 100,
+             width: 100,
+             color: Colors.amber,
+           ),
          ),
        ],
      ),
