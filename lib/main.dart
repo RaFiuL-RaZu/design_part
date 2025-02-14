@@ -44,6 +44,7 @@ class HomeScren extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIft9QHkBup71HTVbX0xEakQ1cAOn-PwpyMJ0cS_VgYq0y8JtdPnQrEhxgCHFj7ZZgV4&usqp=CAU",width:double.infinity,),
               height: 150,
               width: double.infinity,
               color: Colors.grey,
