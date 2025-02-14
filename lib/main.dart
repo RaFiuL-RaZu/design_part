@@ -46,11 +46,14 @@ class HomeScren extends StatelessWidget{
              child: Column(
                children: [
                  Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp57OH7-b1dARGc3vujs7992FaDDvo-2w9Rw&s",height: 150,width: double.infinity,),
-                 Column(
-                   children: [
-                     Text("RaFiuL RaZu"),
-                     Text("Computer Enginner"),
-                   ],
+                 Padding(
+                   padding: const EdgeInsets.all(8.0),
+                   child: Column(
+                     children: [
+                       Text("RaFiuL RaZu"),
+                       Text("Computer Enginner"),
+                     ],
+                   ),
                  )
                ],
              ),
