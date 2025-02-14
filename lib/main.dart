@@ -59,6 +59,7 @@ class HomeScren extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Name :${personInfo[index]["name"]}"),
                         Text("Dep :${personInfo[index]["dept"]}"),
