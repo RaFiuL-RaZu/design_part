@@ -31,21 +31,13 @@ class HomeScren extends StatelessWidget{
         title: Text("Home Design"),
       ),
       drawer: Drawer(),
-     body: GridView(
-         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-             crossAxisCount: 3,
-           childAspectRatio: 0.75
-         ),
-       children: [
-         ContactCard(),
-         ContactCard(),
-         ContactCard(),
-         ContactCard(),
-         ContactCard(),
-         ContactCard(),
-         ContactCard(),
-       ],
-     ),
+     body: GridView.builder(
+       itemCount: 10,
+         gridDelegate:SliverGridDelegateWithFixedCrossAxisCount(
+             crossAxisCount: 3),
+         itemBuilder:(context,index){
+           return  ContactCard();
+         }),
     );
   }
 
