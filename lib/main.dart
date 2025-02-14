@@ -60,9 +60,9 @@ class HomeScren extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
                       children: [
-                        Text("${personInfo[index]["name"]}"),
-                        Text("${personInfo[index]["dept"]}"),
-                        Text("${personInfo[index]["Roll"]}"),
+                        Text("Name :${personInfo[index]["name"]}"),
+                        Text("Dep :${personInfo[index]["dept"]}"),
+                        Text("Roll:${personInfo[index]["Roll"]}"),
                       ],
                     ),
                   ),
