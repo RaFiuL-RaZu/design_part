@@ -34,7 +34,8 @@ class HomeScren extends StatelessWidget{
      body: GridView.builder(
        itemCount: 10,
          gridDelegate:SliverGridDelegateWithFixedCrossAxisCount(
-             crossAxisCount: 3),
+             crossAxisCount: 3,
+         childAspectRatio: 0.75),
          itemBuilder:(context,index){
            return  ContactCard();
          }),
