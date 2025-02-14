@@ -40,6 +40,13 @@ class HomeScren extends StatelessWidget{
              height: 100,
              width: 100,
              color: Colors.amber,
+             child: Column(
+               children: [
+                 Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp57OH7-b1dARGc3vujs7992FaDDvo-2w9Rw&s"),
+                 Text("RaFiuL RaZu"),
+                 Text("Computer Enginner"),
+               ],
+             ),
            ),
          ),
        ],
