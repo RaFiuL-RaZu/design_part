@@ -62,7 +62,7 @@ class HomeScren extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Name :${personInfo[index]["name"]}"),
-                        Text("Dep :${personInfo[index]["dept"]}"),
+                        Text("Dep :${personInfo[index]["dept"]}",maxLines: 1,overflow: TextOverflow.ellipsis,),
                         Text("Roll:${personInfo[index]["Roll"]}"),
                       ],
                     ),
