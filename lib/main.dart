@@ -41,7 +41,7 @@ class HomeScren extends StatelessWidget {
       ),
       drawer: Drawer(),
       body: GridView.builder(
-        itemCount: 10,
+        itemCount: personInfo.length,
           gridDelegate:
               SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
@@ -60,7 +60,7 @@ class HomeScren extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
                       children: [
-                        Text("RaFiuL RaZu"),
+                        Text("${personInfo[index]["name"]}"),
                         Text("Computer Technology"),
                         Text("Roll:102621"),
                       ],
