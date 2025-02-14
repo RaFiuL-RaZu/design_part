@@ -45,20 +45,24 @@ class HomeScren extends StatelessWidget {
           gridDelegate:
               SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
-              childAspectRatio: 0.75),
+              childAspectRatio: 0.70),
           itemBuilder: (context, index) {
             return Card(
               color: Colors.grey,
               child: Column(
                 children: [
                   Image.network(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp57OH7-b1dARGc3vujs7992FaDDvo-2w9Rw&s"),
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp57OH7-b1dARGc3vujs7992FaDDvo-2w9Rw&s",
+                    height: 150,
+                    width: double.maxFinite,
+                  ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
                       children: [
                         Text("RaFiuL RaZu"),
                         Text("Computer Technology"),
+                        Text("Roll:102621"),
                       ],
                     ),
                   ),
