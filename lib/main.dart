@@ -45,9 +45,7 @@ class HomeScren extends StatelessWidget {
           children: [
             Container(
               child: Image.network(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIft9QHkBup71HTVbX0xEakQ1cAOn-PwpyMJ0cS_VgYq0y8JtdPnQrEhxgCHFj7ZZgV4&usqp=CAU",
-                width: double.infinity,height: 200,
-              ),
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEVwVIhIIOTktTFMSvQCY-f5v9CBAiWYUnA&s", width: double.infinity,height: 150,),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
