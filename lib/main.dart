@@ -45,7 +45,9 @@ class HomeScren extends StatelessWidget {
           gridDelegate:
               SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
-              childAspectRatio: 0.70),
+              childAspectRatio: 0.70,
+              crossAxisSpacing: 15,
+              mainAxisSpacing: 15,),
           itemBuilder: (context, index) {
             return Card(
               color: Colors.grey,
