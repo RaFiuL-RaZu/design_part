@@ -47,6 +47,7 @@ class HomeScren extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(height: 10,),
             Row(
               children: [
                 Icon(Icons.home),
