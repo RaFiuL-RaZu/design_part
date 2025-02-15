@@ -40,7 +40,9 @@ class HomeScren extends StatelessWidget {
                   CircleAvatar(
                     child: Icon(Icons.image,color:Colors.amber,),
                   ),
+                  SizedBox(height: 5,),
                   Text("RaFiuL RaZu"),
+                  SizedBox(height: 5,),
                   Text("rafi102621@gmail.com"),
                 ],
               ),
