@@ -22,7 +22,7 @@ class HomeScren extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         foregroundColor: Colors.black,
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Colors.blue,
         title: Text("Daraz Online Shop"),
       ),
       drawer: Drawer(
