@@ -29,16 +29,19 @@ class HomeScren extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              padding: EdgeInsets.symmetric(horizontal: 20),
               height: 200,
               width: double.infinity,
               color: Colors.blue,
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CircleAvatar(
                     child: Icon(Icons.image,color:Colors.amber,),
                   ),
                   Text("RaFiuL RaZu"),
-                  Text("rafi102621@gmail.com")
+                  Text("rafi102621@gmail.com"),
                 ],
               ),
             ),
