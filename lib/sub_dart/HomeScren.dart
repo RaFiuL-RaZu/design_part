@@ -38,7 +38,7 @@ class HomeScren extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CircleAvatar(
-                    child: Icon(Icons.image,color:Colors.amber,),
+                    child:Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqAjjQ2tfyhM8e7trdNINyPQfY712muYJdQQ&s"),
                   ),
                   SizedBox(height: 5,),
                   Text("RaFiuL RaZu"),
