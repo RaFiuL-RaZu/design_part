@@ -50,30 +50,39 @@ class HomeScren extends StatelessWidget {
             Row(
               children: [
                 Icon(Icons.home),
+                SizedBox(width: 15,),
                 Text("Home")
               ],
             ),
+            SizedBox(height: 5,),
             Row(
               children: [
                 Icon(Icons.home),
+                SizedBox(width: 15,),
                 Text("Home")
               ],
             ),
+            SizedBox(height: 5,),
             Row(
               children: [
                 Icon(Icons.home),
+                SizedBox(width: 15,),
                 Text("Home")
               ],
             ),
+            SizedBox(height: 5,),
             Row(
               children: [
                 Icon(Icons.home),
+                SizedBox(width: 15,),
                 Text("Home")
               ],
             ),
+            SizedBox(height: 5,),
             Row(
               children: [
                 Icon(Icons.home),
+                SizedBox(width: 15,),
                 Text("Home")
               ],
             ),
