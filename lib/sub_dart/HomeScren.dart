@@ -52,7 +52,31 @@ class HomeScren extends StatelessWidget {
                 Icon(Icons.home),
                 Text("Home")
               ],
-            )
+            ),
+            Row(
+              children: [
+                Icon(Icons.home),
+                Text("Home")
+              ],
+            ),
+            Row(
+              children: [
+                Icon(Icons.home),
+                Text("Home")
+              ],
+            ),
+            Row(
+              children: [
+                Icon(Icons.home),
+                Text("Home")
+              ],
+            ),
+            Row(
+              children: [
+                Icon(Icons.home),
+                Text("Home")
+              ],
+            ),
           ],
         ),
       ),
