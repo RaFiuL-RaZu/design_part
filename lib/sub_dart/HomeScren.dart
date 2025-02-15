@@ -35,8 +35,10 @@ class HomeScren extends StatelessWidget {
               child: Column(
                 children: [
                   CircleAvatar(
-                    child: Icon(Icons.image),
+                    child: Icon(Icons.image,color:Colors.amber,),
                   ),
+                  Text("RaFiuL RaZu"),
+                  Text("rafi102621@gmail.com")
                 ],
               ),
             ),
